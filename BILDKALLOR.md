@@ -15,11 +15,11 @@ Där online-bilden gällde en annan årgång/etikett, saknades, eller inte kunde
 | 4 | Barolo – dedicato a Enzo Bartoli | online | samma producent/etikett, årgång kan skilja |
 | 5 | Coto de Imaz Reserva Rioja | festfoto | festfotot visar rätt etikett tydligt |
 | 6 | Pedroncelli 'Brother's Mark' Cabernet Sauvignon | festfoto | hittades ej online |
-| 7 | Amarone della Valpolicella Classico – Luigi Righetti | festfoto | ingen produktbild online |
-| 8 | Alaja Cosecha Jumilla | festfoto | hittades ej online |
+| 7 | Amarone della Valpolicella Classico – Luigi Righetti | online | Systembolagets produktbild (etiketten kan vara omgjord) |
+| 8 | Alaja Cosecha Jumilla | online | Vivino (Finca La Solana / Luzón) |
 | 9 | Borgogno Barolo Riserva | online | |
-| 10 | ONE Ribera del Duero | festfoto | hittades ej online |
-| 11 | Basalt 'Granville' Pinot Noir | festfoto | hittades ej online |
+| 10 | ONE Ribera del Duero | online | Systembolagets produktbild (Ribera 1 One) |
+| 11 | Basalt 'Granville' Pinot Noir | online | Systembolagets produktbild |
 | 12 | Poderi Colla 'Dardi Le Rose' Barolo Bussia | online | producentens egen bild (podericolla.it) |
 | 13 | Black Knight Cabernet Sauvignon | festfoto | ingen produktbild online |
 | 14 | Enzo Bartoli Langhe Nebbiolo | online | |
@@ -46,6 +46,6 @@ Där online-bilden gällde en annan årgång/etikett, saknades, eller inte kunde
 | 35 | Grand Tokaj 'Terroir Selection' Édes Szamorodni | online | Systembolagets produktbild (Grand Tokaj Édes Szamorodni) |
 | 36 | Djuce White Wine (burk) | online | Djuce Core Fizzy White-burk (djuce.com); exakt variant osäker |
 
-**Sammanfattning:** 20 online-produktbilder, 16 omputsade festfoton.
+**Sammanfattning:** 24 online-produktbilder, 12 omputsade festfoton.
 
 Skripten som användes ligger i `scripts_hamta/`.
