@@ -9,7 +9,7 @@
   /* ---- Minimal reset + tokens ---- */
   *,*::before,*::after{box-sizing:border-box;margin:0}
   :root{
-    --vin:#6b1330;--vin-ljus:#8f1d40;--guld:#c9a24b;--guld-ljus:#e6cf94;
+    --vin:#4a0d20;--vin-ljus:#6b1330;--vin-mork:#37081a;--guld:#c9a24b;--guld-ljus:#e8d29a;
     --papper:#fbf7f0;--bleck:#2a1418;--dammig:#efe6d6;--skugga:0 6px 22px rgba(60,10,25,.10);
     --max:960px;--radie:16px;
     --font:'Georgia','Times New Roman',serif;
@@ -21,22 +21,38 @@
     line-height:1.55;-webkit-font-smoothing:antialiased;
     background-image:radial-gradient(circle at 50% -10%,rgba(201,162,75,.12),transparent 60%);
   }
-  /* ---- Hero ---- */
+  /* ---- Hero: mörkt vinröd förstasida (mobil-först, fyller skärmen) ---- */
   header{
-    text-align:center;padding:clamp(2.5rem,8vw,5rem) 1.25rem 2rem;
-    background:linear-gradient(160deg,var(--vin),var(--vin-ljus));
+    min-height:100svh;display:flex;flex-direction:column;justify-content:center;align-items:center;
+    text-align:center;padding:clamp(2rem,7vw,4rem) 1.35rem clamp(3rem,9vw,4rem);
+    background:
+      radial-gradient(120% 80% at 50% 0%,rgba(201,162,75,.16),transparent 55%),
+      linear-gradient(165deg,var(--vin-ljus) 0%,var(--vin) 45%,var(--vin-mork) 100%);
     color:var(--papper);position:relative;overflow:hidden;
   }
-  header::after{content:"";position:absolute;inset:auto 0 0 0;height:5px;
+  header::after{content:"";position:absolute;inset:auto 0 0 0;height:4px;
     background:linear-gradient(90deg,transparent,var(--guld),transparent)}
-  .femtio{font-size:clamp(3.4rem,18vw,7rem);line-height:.9;font-weight:700;
-    color:var(--guld-ljus);letter-spacing:-2px;text-shadow:0 2px 0 rgba(0,0,0,.15)}
-  header h1{font-size:clamp(1.3rem,5vw,2rem);font-weight:700;margin:.6rem 0 .3rem}
-  header p{max-width:34rem;margin:.5rem auto 0;font-style:italic;opacity:.94;
-    font-size:clamp(.95rem,3.4vw,1.1rem)}
-  .rakn{margin-top:1.4rem;display:inline-block;font-family:var(--sans);font-size:.8rem;
-    letter-spacing:.15em;text-transform:uppercase;color:var(--guld-ljus);
-    border:1px solid rgba(230,207,148,.5);border-radius:100px;padding:.45rem 1.1rem}
+  .femtio{font-size:clamp(4.5rem,26vw,9rem);line-height:.85;font-weight:700;
+    color:var(--guld-ljus);letter-spacing:-3px;text-shadow:0 3px 14px rgba(0,0,0,.3)}
+  header h1{font-size:clamp(1.35rem,6vw,2.1rem);font-weight:700;margin:.5rem 0 .2rem;
+    color:#fdf6ea}
+  header p.underrubrik{max-width:34rem;margin:.5rem auto 0;font-style:italic;opacity:.9;
+    font-size:clamp(.95rem,3.6vw,1.1rem)}
+  /* Tack-texten: kursiv guld */
+  .tack{max-width:32rem;margin:clamp(1.6rem,6vw,2.4rem) auto 0;
+    font-style:italic;color:var(--guld-ljus);
+    font-size:clamp(1.05rem,4.6vw,1.35rem);line-height:1.6;
+    text-shadow:0 1px 10px rgba(0,0,0,.25)}
+  .tack::before,.tack::after{content:"";display:block;width:44px;height:1px;margin:1rem auto;
+    background:linear-gradient(90deg,transparent,var(--guld),transparent)}
+  .rakn{margin-top:clamp(1.6rem,6vw,2.2rem);display:inline-block;font-family:var(--sans);
+    font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--guld-ljus);
+    border:1px solid rgba(232,210,154,.45);border-radius:100px;padding:.5rem 1.15rem}
+  .scrollhint{position:absolute;bottom:1.1rem;left:0;right:0;text-align:center;
+    color:var(--guld-ljus);font-family:var(--sans);font-size:.7rem;letter-spacing:.2em;
+    text-transform:uppercase;opacity:.7;animation:bob 2s ease-in-out infinite}
+  @keyframes bob{50%{transform:translateY(6px)}}
+  @media(prefers-reduced-motion:reduce){.scrollhint{animation:none}}
   /* ---- Filter ---- */
   nav.filter{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:.4rem;
     justify-content:center;padding:.75rem 1rem;background:rgba(251,247,240,.92);
@@ -77,6 +93,24 @@
   .kort p.pers{font-size:.94rem;color:#3a2a2e}
   .kort .nr{margin-top:auto;font-family:var(--sans);font-size:.7rem;color:#c3b79c;
     border-top:1px dashed var(--dammig);padding-top:.6rem}
+  /* ---- Gästgalleri ---- */
+  .galleri-sektion{background:var(--vin-mork);color:var(--papper);padding:clamp(2.5rem,8vw,4rem) 1rem}
+  .galleri-sektion .inner{max-width:var(--max);margin:0 auto}
+  .galleri-sektion h2{text-align:center;font-size:clamp(1.6rem,7vw,2.4rem);color:var(--guld-ljus)}
+  .galleri-sektion .ingress{text-align:center;max-width:34rem;margin:.6rem auto 1.8rem;
+    font-style:italic;opacity:.9;font-size:clamp(.95rem,3.6vw,1.1rem)}
+  .galleri{columns:2;column-gap:.5rem}
+  @media(min-width:560px){.galleri{columns:3}}
+  @media(min-width:860px){.galleri{columns:4}}
+  .galleri img{width:100%;margin:0 0 .5rem;border-radius:8px;display:block;cursor:zoom-in;
+    background:rgba(255,255,255,.05);break-inside:avoid}
+  /* Lättviktig lightbox */
+  #lb{position:fixed;inset:0;background:rgba(20,4,10,.94);display:none;align-items:center;
+    justify-content:center;z-index:50;padding:1rem}
+  #lb.pa{display:flex}
+  #lb img{max-width:100%;max-height:92vh;border-radius:8px}
+  #lb .stang{position:absolute;top:.8rem;right:1.1rem;color:var(--guld-ljus);font-size:2rem;
+    cursor:pointer;font-family:var(--sans);line-height:1}
   footer{text-align:center;padding:2.5rem 1.25rem;color:#8a7a62;font-size:.85rem;
     font-family:var(--sans);border-top:1px solid var(--dammig)}
   footer strong{color:var(--vin)}
@@ -86,8 +120,10 @@
 <header>
   <div class="femtio">50</div>
   <h1>Ett helt sällskap av väninnor</h1>
-  <p id="underrubrik"></p>
+  <p class="underrubrik" id="underrubrik"></p>
+  <p class="tack" id="tack"></p>
   <div class="rakn" id="rakn">Laddar sällskapet…</div>
+  <div class="scrollhint">Bläddra ↓</div>
 </header>
 
 <nav class="filter" id="filter" aria-label="Filtrera efter vintyp"></nav>
@@ -95,6 +131,16 @@
 <main>
   <div class="grid" id="grid"></div>
 </main>
+
+<section class="galleri-sektion" id="galleri">
+  <div class="inner">
+    <h2>Gästerna</h2>
+    <p class="ingress">Ni som gjorde kvällen. Tryck på en bild för att se den större.</p>
+    <div class="galleri" id="galleriGrid"></div>
+  </div>
+</section>
+
+<div id="lb"><span class="stang" aria-label="Stäng">×</span><img alt=""></div>
 
 <footer>
   <p><strong id="antal">36</strong> väninnor, förevigade från festen.<br>
@@ -141,6 +187,7 @@ function bygg(viner, typ){
 fetch('./viner.json').then(r=>r.json()).then(data=>{
   const viner = data.viner;
   document.getElementById('underrubrik').textContent = data.fest.underrubrik;
+  if (data.fest.tack_se) document.getElementById('tack').textContent = data.fest.tack_se;
   document.getElementById('rakn').textContent = `${viner.length} viner · 50 år · en väninna åt gången`;
   document.getElementById('antal').textContent = viner.length;
 
@@ -160,6 +207,23 @@ fetch('./viner.json').then(r=>r.json()).then(data=>{
     '<p style="grid-column:1/-1;text-align:center;color:#8f1d40">Kunde inte läsa viner.json — kör sidan via en webbserver (se README).</p>';
   console.error(err);
 });
+
+// ---- Gästgalleri (valfritt): läser galleri.json om den finns ----
+fetch('./galleri.json').then(r=>r.ok?r.json():Promise.reject()).then(g=>{
+  const grid=document.getElementById('galleriGrid');
+  grid.innerHTML = g.bilder.map(b=>
+    `<img src="${esc(b.fil)}" alt="Gästbild från festen" loading="lazy" decoding="async"
+          width="${b.bredd}" height="${b.hojd}">`).join('');
+  // Lightbox
+  const lb=document.getElementById('lb'), lbImg=lb.querySelector('img');
+  grid.addEventListener('click',e=>{
+    const im=e.target.closest('img'); if(!im) return;
+    lbImg.src=im.src; lb.classList.add('pa');
+  });
+  const stang=()=>{lb.classList.remove('pa'); lbImg.src='';};
+  lb.addEventListener('click',stang);
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')stang();});
+}).catch(()=>{ document.getElementById('galleri').style.display='none'; });
 </script>
 <style>.bild.tom .platsh span{content:""}</style>
 </body>

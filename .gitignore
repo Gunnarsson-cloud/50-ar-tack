@@ -13,7 +13,7 @@ __pycache__/
 fina_bilder_gaster/
 extract/
 
-# Gästbilder — publiceras INTE offentligt som standard (integritet).
-# Ta bort raden nedan om du medvetet vill lägga upp gästgalleriet.
-bilder/galleri/
-galleri.json
+# Gästbilder — du valde att publicera gästgalleriet offentligt (informerat val).
+# Kommentera in raderna nedan igen om du vill hålla dem borta från GitHub.
+# bilder/galleri/
+# galleri.json
