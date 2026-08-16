@@ -80,7 +80,9 @@
   @media(prefers-reduced-motion:reduce){.kort{animation:none;opacity:1;transform:none}}
   .kort .bild{aspect-ratio:3/4;background:
     linear-gradient(135deg,var(--dammig),#fff);position:relative;overflow:hidden}
-  .kort .bild img{width:100%;height:100%;object-fit:cover;display:block}
+  .kort .bild img{width:100%;height:100%;object-fit:cover;display:block;position:relative;z-index:1}
+  /* Platshållaren visas bara när ingen bild finns (bilden tas bort vid fel) */
+  .kort .bild:has(img) .platsh{display:none}
   .kort .bild .platsh{position:absolute;inset:0;display:flex;align-items:center;
     justify-content:center;flex-direction:column;gap:.4rem;color:var(--vin);
     font-family:var(--sans);text-align:center;padding:1rem}
