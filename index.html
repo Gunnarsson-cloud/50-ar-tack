@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="50-årsfesten förevigad – varje vin en väninna på flaska.">
+<meta name="description" content="50-årsfesten förevigad – varje vin en vän på flaska.">
 <title>50 år – Ett sällskap av vänner och viner</title>
 <style>
   /* ---- Minimal reset + tokens ---- */
@@ -207,7 +207,7 @@ fetch('./viner.json').then(r=>r.json()).then(data=>{
       .map(strof => `<p>${strof.map(esc).join('<br>')}</p>`).join('');
   }
   if (data.fest.tacktal_final) document.getElementById('tacktalFinal').textContent = data.fest.tacktal_final;
-  document.getElementById('rakn').textContent = `${viner.length} viner · 50 år · en väninna åt gången`;
+  document.getElementById('rakn').textContent = `${viner.length} viner · 50 år · en vän åt gången`;
   document.getElementById('antal').textContent = viner.length;
 
   // Bygg filterknappar dynamiskt av de typer som faktiskt finns

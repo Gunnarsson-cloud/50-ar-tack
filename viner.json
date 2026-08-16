@@ -1,6 +1,6 @@
 {
   "fest": {
-    "titel": "50 år – och ett helt sällskap av väninnor på flaska",
+    "titel": "50 år – och ett helt sällskap av vänner och viner",
     "underrubrik": "Varje vin här är en present från någon som tycker om mig. Så här presenterar jag dem – som de damer (och några herrar) de faktiskt är.",
     "tacktal_eyebrow": "50 år · Tacktal",
     "tacktal": [
@@ -50,7 +50,7 @@
       "namn": "Antiche Terre Venete – Valpolicella Ripasso DOC",
       "typ": "Rött",
       "ursprung": "Veneto, Italien",
-      "personlighet_se": "Sammetsklädd och rar, hon som alltid kramar först i dörren. Ripasso-metoden gör henne rund och godhjärtad – en väninna man vilar mot efter en lång dag.",
+      "personlighet_se": "Sammetsklädd och rar, hon som alltid kramar först i dörren. Ripasso-metoden gör henne rund och godhjärtad – en vän man vilar mot efter en lång dag.",
       "bild_path": "./bilder/viner/vin_01.webp",
       "foto_kalla": "IMG_9229"
     },
@@ -239,7 +239,7 @@
       "namn": "Zecci Valpolicella Ripasso Superiore 2023 (Organic)",
       "typ": "Rött",
       "ursprung": "Veneto, Italien",
-      "personlighet_se": "Den vaxsigill-fina väninnan som gör allt ordentligt – ekologisk, Superiore, med snöre om halsen. Rund och körsbärsmjuk men med lite extra klass; hon skriver tackkort för hand.",
+      "personlighet_se": "Den vaxsigill-fina vännen som gör allt ordentligt – ekologisk, Superiore, med snöre om halsen. Rund och körsbärsmjuk men med lite extra klass; hon skriver tackkort för hand.",
       "bild_path": "./bilder/viner/vin_22.webp",
       "foto_kalla": "IMG_9230"
     },
