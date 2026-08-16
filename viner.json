@@ -2,7 +2,45 @@
   "fest": {
     "titel": "50 år – och ett helt sällskap av väninnor på flaska",
     "underrubrik": "Varje vin här är en present från någon som tycker om mig. Så här presenterar jag dem – som de damer (och några herrar) de faktiskt är.",
-    "tack_se": "Tack. Tack för att ni fyllde mina 50 år med skratt, sång och alldeles för många underbara viner. Varje flaska här bär ett namn, ett minne och en vän. Skål för er allihop – och för de närmaste 50 åren.",
+    "tacktal_eyebrow": "50 år · Tacktal",
+    "tacktal": [
+      [
+        "Det är med lite högfärdighet",
+        "som jag fattar pennan",
+        "för att författa mitt tack till er alla –",
+        "för att ni gjorde min dag igår,",
+        "och för alla minnen därefter.",
+        "Tack för alla messages in a bottle."
+      ],
+      [
+        "Det är helt otroligt",
+        "hur mycket kärlek en bok kan ge.",
+        "Jag fick läsa hälften,",
+        "luta mig tillbaka och le,",
+        "och sedan läsa resten –",
+        "och nog blev man lite högfärdig ändå,",
+        "av all den kärlek som strålade ut",
+        "där pennan mötte papperet."
+      ],
+      [
+        "Ni undrar säkert",
+        "om jag använder AI för att skriva det här.",
+        "Men nej —",
+        "det här kommer från mitt hjärta,",
+        "som nu har levlat upp till nivå 50.",
+        "Tur att skallen inte fattar det –",
+        "men knäna påminner mig",
+        "desto mer om min riktiga ålder."
+      ],
+      [
+        "Nog om mig.",
+        "Över till Er alla:",
+        "stort tack för gårdagen.",
+        "Ni är nu allihop",
+        "min ande i flaskan."
+      ]
+    ],
+    "tacktal_final": "Andas · le · skål",
     "antal_viner": 36,
     "notering": "Alla namn och årgångar är avlästa direkt från etiketterna på fotografierna. Inget är påhittat. Där en flaska syns i två gruppbilder räknas den en gång."
   },
