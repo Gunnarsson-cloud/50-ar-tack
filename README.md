@@ -1,7 +1,7 @@
-# 🍷 50 år – Ett sällskap av väninnor
+# 🍷 50 år – Ett sällskap av vänner och viner
 
 En supersnabb, mobilanpassad minnessida som förevigar **36 viner** från festen. Varje vin
-presenteras som en "väninna" med egen personlighet på svenska.
+presenteras som en "vän" med egen personlighet på svenska.
 
 ## Innehåll
 | Fil | Vad |
