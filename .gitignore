@@ -1,0 +1,19 @@
+# Windows / OneDrive skräp
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Stora käll-/arbetsfiler som INTE ska till GitHub
+*.zip
+fina_bilder_gaster/
+extract/
+
+# Gästbilder — publiceras INTE offentligt som standard (integritet).
+# Ta bort raden nedan om du medvetet vill lägga upp gästgalleriet.
+bilder/galleri/
+galleri.json

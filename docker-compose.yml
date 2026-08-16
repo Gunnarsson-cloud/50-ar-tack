@@ -1,0 +1,20 @@
+services:
+  # Statisk, supersnabb webbserver för sidan. Nginx serverar bara filer — inget bygg-steg.
+  webb:
+    image: nginx:alpine
+    container_name: femtioar_webb
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/usr/share/nginx/html:ro
+    restart: unless-stopped
+
+  # Bildgallringen. Körs på begäran (docker compose run), inte som en tjänst.
+  galla:
+    build:
+      context: .
+      dockerfile: Dockerfile.galla
+    container_name: femtioar_galla
+    volumes:
+      - ./bilder:/data          # ./bilder/gaster_raw in, ./bilder/fina_bilder_gaster ut
+    profiles: ["verktyg"]        # startar inte med "up", bara när du kallar på den

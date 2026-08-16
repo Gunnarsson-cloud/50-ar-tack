@@ -1,0 +1,13 @@
+# Lättviktig container för bildgallringen. Headless OpenCV = ingen GUI, liten image.
+FROM python:3.12-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends libgl1 libglib2.0-0 \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install --no-cache-dir opencv-python-headless numpy
+
+WORKDIR /app
+COPY galla_bilder.py .
+
+# Standardkörning: läser /data/gaster_raw, skriver /data/fina_bilder_gaster
+ENTRYPOINT ["python", "galla_bilder.py"]

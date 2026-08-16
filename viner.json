@@ -1,0 +1,334 @@
+{
+  "fest": {
+    "titel": "50 år – och ett helt sällskap av väninnor på flaska",
+    "underrubrik": "Varje vin här är en present från någon som tycker om mig. Så här presenterar jag dem – som de damer (och några herrar) de faktiskt är.",
+    "antal_viner": 36,
+    "notering": "Alla namn och årgångar är avlästa direkt från etiketterna på fotografierna. Inget är påhittat. Där en flaska syns i två gruppbilder räknas den en gång."
+  },
+  "viner": [
+    {
+      "id": 1,
+      "namn": "Antiche Terre Venete – Valpolicella Ripasso DOC",
+      "typ": "Rött",
+      "ursprung": "Veneto, Italien",
+      "personlighet_se": "Sammetsklädd och rar, hon som alltid kramar först i dörren. Ripasso-metoden gör henne rund och godhjärtad – en väninna man vilar mot efter en lång dag.",
+      "bild_path": "./bilder/viner/vin_01.webp",
+      "foto_kalla": "IMG_9229"
+    },
+    {
+      "id": 2,
+      "namn": "Terre de Mistral – Côtes-du-Rhône Réserve Organic",
+      "typ": "Rött",
+      "ursprung": "Rhône, Frankrike",
+      "personlighet_se": "Den ekologiska idealisten med solbränd nacke och örtträdgård på balkongen. Kryddig, öppenhjärtig och lite lantlig i kanten – hon tar med egengjord tapenade till varje middag.",
+      "bild_path": "./bilder/viner/vin_02.webp",
+      "foto_kalla": "IMG_9229"
+    },
+    {
+      "id": 3,
+      "namn": "Lucía De Mari 'La Boccia' – Ripasso Valpolicella DOC",
+      "typ": "Rött",
+      "ursprung": "Veneto, Italien",
+      "personlighet_se": "Den stiliga i den knubbiga designflaskan – hon som klär sig enkelt men dyrt. Mjuk, generös och full av körsbär; en tyst kraft som charmar utan att höja rösten.",
+      "bild_path": "./bilder/viner/vin_03.webp",
+      "foto_kalla": "IMG_9229"
+    },
+    {
+      "id": 4,
+      "namn": "Barolo 2021 – dedicato a Enzo Bartoli",
+      "typ": "Rött",
+      "ursprung": "Piemonte, Italien",
+      "personlighet_se": "Nebbiolons yngre, ambitiösa arvtagerska. Fortfarande lite kantig och otålig i sin ungdom, men man anar redan matriarken hon ska bli. Ge henne tid, hon glömmer inte en förolämpning.",
+      "bild_path": "./bilder/viner/vin_04.webp",
+      "foto_kalla": "IMG_9229"
+    },
+    {
+      "id": 5,
+      "namn": "Coto de Imaz Reserva 2021 – Rioja",
+      "typ": "Rött",
+      "ursprung": "Rioja, Spanien",
+      "personlighet_se": "Den varma spanska värdinnan med vaniljdoftande kram och guldmedalj på bröstet. Ekfatslagrad och trygg – hon dukar alltid för en till och håller festen igång längst.",
+      "bild_path": "./bilder/viner/vin_05.webp",
+      "foto_kalla": "IMG_9229"
+    },
+    {
+      "id": 6,
+      "namn": "Pedroncelli 'Brother's Mark' Cabernet Sauvignon 2023 – Dry Creek Valley",
+      "typ": "Rött",
+      "ursprung": "Kalifornien, USA",
+      "personlighet_se": "Familjeflickan från Sonoma – bott på samma ranch sedan 1927 och stolt över det. Solig, rakt på sak och lite cowboy: fast handslag, bjärt blomsterklänning och inga svepskäl.",
+      "bild_path": "./bilder/viner/vin_06.webp",
+      "foto_kalla": "IMG_9229"
+    },
+    {
+      "id": 7,
+      "namn": "Amarone della Valpolicella Classico – Luigi Righetti",
+      "typ": "Rött",
+      "ursprung": "Veneto, Italien",
+      "personlighet_se": "Divan. Torkade druvor, päls och parfym – hon kliver in sist och alla vänder sig om. Kraftfull, fyllig och lite för mycket på bästa sätt; dagen efter minns du bara henne.",
+      "bild_path": "./bilder/viner/vin_07.webp",
+      "foto_kalla": "IMG_9229"
+    },
+    {
+      "id": 8,
+      "namn": "Alaja Cosecha – Jumilla",
+      "typ": "Rött",
+      "ursprung": "Jumilla, Spanien",
+      "personlighet_se": "Den moderna spanjorskan i rött och svart, monogram på väskan. Mörk Monastrell-glöd, självsäker och sydländskt het – hon dansar tills soluppgången utan att tappa läppstiftet.",
+      "bild_path": "./bilder/viner/vin_08.webp",
+      "foto_kalla": "IMG_9229"
+    },
+    {
+      "id": 9,
+      "namn": "Borgogno Barolo Riserva 2018",
+      "typ": "Rött",
+      "ursprung": "Piemonte, Italien",
+      "personlighet_se": "Grande dame från ett av Barolos äldsta hus. Riserva, alltså tålmodigt fostrad – ros, tjära och järnvilja. Hon rättar din italienska med ett leende och har alltid rätt.",
+      "bild_path": "./bilder/viner/vin_09.webp",
+      "foto_kalla": "IMG_9229"
+    },
+    {
+      "id": 10,
+      "namn": "ONE 2023 – Ribera del Duero",
+      "typ": "Rött",
+      "ursprung": "Ribera del Duero, Spanien",
+      "personlighet_se": "Minimalisten med bara en enda stor etta på klänningen. Ung Tempranillo, mörk och koncentrerad – hon säger få ord men var och ett träffar. Nummer ett, och hon vet om det.",
+      "bild_path": "./bilder/viner/vin_10.webp",
+      "foto_kalla": "IMG_9229"
+    },
+    {
+      "id": 11,
+      "namn": "Basalt 'Granville' Pinot Noir 2021 – Willamette Valley",
+      "typ": "Rött",
+      "ursprung": "Oregon, USA",
+      "personlighet_se": "Den känsliga konstnärinnan från regniga Oregon – ofiltrerad, oskönmålad, bara 1200 flaskor av henne i världen. Silkeslen Pinot med skör själ; hon gråter på bio och skäms inte.",
+      "bild_path": "./bilder/viner/vin_11.webp",
+      "foto_kalla": "IMG_9229"
+    },
+    {
+      "id": 12,
+      "namn": "Poderi Colla 'Dardi Le Rose' Barolo Bussia 2021",
+      "typ": "Rött",
+      "ursprung": "Piemonte, Italien",
+      "personlighet_se": "Bussia-lägets fina fröken – så omtyckt att hon dök upp på två av kvällens gruppfoton. Elegant, ros-doftande och väluppfostrad; en Barolo med perfekt hållning och varm blick.",
+      "bild_path": "./bilder/viner/vin_12.webp",
+      "foto_kalla": "IMG_9229 & IMG_9230"
+    },
+    {
+      "id": 13,
+      "namn": "Black Knight Cabernet Sauvignon – Coonawarra",
+      "typ": "Rött",
+      "ursprung": "Coonawarra, Australien",
+      "personlighet_se": "Den gåtfulla i svart, med en springare på brickan och schackdrag i huvudet. Australisk Cabernet från röda terra rossa-jorden – mörk, strategisk och alltid två drag före dig.",
+      "bild_path": "./bilder/viner/vin_13.webp",
+      "foto_kalla": "IMG_9229"
+    },
+    {
+      "id": 14,
+      "namn": "Langhe Nebbiolo 2024 – Enzo Bartoli",
+      "typ": "Rött",
+      "ursprung": "Piemonte, Italien",
+      "personlighet_se": "Barolons yngre, ledigare lillasyster. Samma fina Nebbiolo-blod men utan högtidsklänningen – charmig, doftande och redo att öppnas direkt. Hon tar livet som det kommer.",
+      "bild_path": "./bilder/viner/vin_14.webp",
+      "foto_kalla": "IMG_9229"
+    },
+    {
+      "id": 15,
+      "namn": "Kungfu Malbec – Riccitelli Wine Co, Mendoza",
+      "typ": "Rött",
+      "ursprung": "Mendoza, Argentina",
+      "personlighet_se": "Rebellen med kampsportsaffisch på flaskan och minimalt med inblandning i glaset. Argentinsk Malbec med svart bälte i attityd – hon sparkar upp dörren och skrattar högst.",
+      "bild_path": "./bilder/viner/vin_15.webp",
+      "foto_kalla": "IMG_9230"
+    },
+    {
+      "id": 16,
+      "namn": "Palazzo Mio Grillo – Sicilia (Organic White)",
+      "typ": "Vitt",
+      "ursprung": "Sicilien, Italien",
+      "personlighet_se": "Den soldränkta sicilianskan i ljus linnedräkt. Ekologisk Grillo, citrusfrisk och saltstänkt – hon luktar hav och lämnar dig sugen på en till oliv och en till historia.",
+      "bild_path": "./bilder/viner/vin_16.webp",
+      "foto_kalla": "IMG_9230"
+    },
+    {
+      "id": 17,
+      "namn": "Dominio Alto Rioja Reserva 2017",
+      "typ": "Rött",
+      "ursprung": "Rioja, Spanien",
+      "personlighet_se": "Den mörkklädda aristokraten i nätklänning och guldrosett. Reserva 2017 – redan mogen, redan vis. Hon har sett saker, säger lite, och doftar läder och mörka bär.",
+      "bild_path": "./bilder/viner/vin_17.webp",
+      "foto_kalla": "IMG_9230"
+    },
+    {
+      "id": 18,
+      "namn": "Ecoltura Appassimento 2023",
+      "typ": "Rött",
+      "ursprung": "Italien",
+      "personlighet_se": "Den barocka guldflickan – etikett som en juvelask. Appassimento, alltså intorkade druvor: söt, fyllig och överdådig. Hon bär för många ringar men bär dem med stil.",
+      "bild_path": "./bilder/viner/vin_18.webp",
+      "foto_kalla": "IMG_9230"
+    },
+    {
+      "id": 19,
+      "namn": "Château Morillon 'Cuvée Jardin Royal' 2023 – Blaye Côtes de Bordeaux",
+      "typ": "Rött",
+      "ursprung": "Bordeaux, Frankrike",
+      "personlighet_se": "Den biodynamiska trädgårdsmästarinnan med svan i vapenskölden. Bordeaux odlad efter månfaser – jordnära, elegant och en aning mystisk; hon pratar med sina växter och de svarar.",
+      "bild_path": "./bilder/viner/vin_19.webp",
+      "foto_kalla": "IMG_9230"
+    },
+    {
+      "id": 20,
+      "namn": "Terre dei Miti Etna Rosso DOC",
+      "typ": "Rött",
+      "ursprung": "Etna, Sicilien, Italien",
+      "personlighet_se": "Vulkanflickan från Etnas sluttningar, med dansande figurer på etiketten. Nerello från lavajord – het inuti, sval på ytan, doftar rök och röda bär. Hon lever farligt nära lavan och gillar det.",
+      "bild_path": "./bilder/viner/vin_20.webp",
+      "foto_kalla": "IMG_9230"
+    },
+    {
+      "id": 21,
+      "namn": "Vermell 2024 – Celler del Roure",
+      "typ": "Rött",
+      "ursprung": "València, Spanien",
+      "personlighet_se": "Den konceptuella med bara ett rött penseldrag som logga. Ung, ledig och naturvinsnyfiken – hon serverar sig gärna lite kyld och struntar i vad grannen tycker. Minimal etikett, maximal personlighet.",
+      "bild_path": "./bilder/viner/vin_21.webp",
+      "foto_kalla": "IMG_9230"
+    },
+    {
+      "id": 22,
+      "namn": "Zecci Valpolicella Ripasso Superiore 2023 (Organic)",
+      "typ": "Rött",
+      "ursprung": "Veneto, Italien",
+      "personlighet_se": "Den vaxsigill-fina väninnan som gör allt ordentligt – ekologisk, Superiore, med snöre om halsen. Rund och körsbärsmjuk men med lite extra klass; hon skriver tackkort för hand.",
+      "bild_path": "./bilder/viner/vin_22.webp",
+      "foto_kalla": "IMG_9230"
+    },
+    {
+      "id": 23,
+      "namn": "Le Volte dell'Ornellaia 2024 – Toscana",
+      "typ": "Rött",
+      "ursprung": "Toscana, Italien",
+      "personlighet_se": "Den som har fina släktingar – lillasyster i Ornellaias berömda familj. Toskansk, akvarellklänning och ledig elegans; hon är förnäm men skryter aldrig, det gör efternamnet åt henne.",
+      "bild_path": "./bilder/viner/vin_23.webp",
+      "foto_kalla": "IMG_9230"
+    },
+    {
+      "id": 24,
+      "namn": "Fortellino Valpolicella Ripasso Superiore",
+      "typ": "Rött",
+      "ursprung": "Veneto, Italien",
+      "personlighet_se": "Den klassiskt vackra med spetsig etikett som en gammal spegelram. Ännu en varm Veneto-själ – rund, körsbärsdoftande och sällskaplig. Kvällens tredje Ripasso, och de tre är oskiljaktiga.",
+      "bild_path": "./bilder/viner/vin_24.webp",
+      "foto_kalla": "IMG_9230"
+    },
+    {
+      "id": 25,
+      "namn": "Casa Capriolo Governo Toscana IGT (Vino Biologico)",
+      "typ": "Rött",
+      "ursprung": "Toscana, Italien",
+      "personlighet_se": "Rådjuret på etiketten säger allt – skygg men graciös. Gjord med governo-metoden, alltså lite extra liv och mjukhet. Ekologisk toskanska med guldkant och mild blick.",
+      "bild_path": "./bilder/viner/vin_25.webp",
+      "foto_kalla": "IMG_9230"
+    },
+    {
+      "id": 26,
+      "namn": "Marqués de Cáceres Crianza 2021 – Rioja",
+      "typ": "Rött",
+      "ursprung": "Rioja, Spanien",
+      "personlighet_se": "Den folkkära klassikern som alla känner och ingen tröttnar på. Röd klänning, guldmedalj och crianza-charm – saftig, sällskaplig och pålitlig. Hon är den som får alla att sjunga med.",
+      "bild_path": "./bilder/viner/vin_26.webp",
+      "foto_kalla": "IMG_9230"
+    },
+    {
+      "id": 27,
+      "namn": "Ljungbyholms Vingård 'Skälderviken'",
+      "typ": "Vitt",
+      "ursprung": "Bjäre, Skåne, Sverige",
+      "personlighet_se": "Lokalhjälten! Svenskt vin från Bjäre, med Skäldervikens akvarell på magen. Sval, saltstänkt och stolt över sin nordiska härkomst – hemmalaget som överraskar hela bordet.",
+      "bild_path": "./bilder/viner/vin_27.webp",
+      "foto_kalla": "IMG_9230"
+    },
+    {
+      "id": 28,
+      "namn": "Château Labadie 2020 – Côtes de Bourg (Bordeaux)",
+      "typ": "Rött",
+      "ursprung": "Bordeaux, Frankrike",
+      "personlighet_se": "Den prydliga slottsfröken med blå kork och château på etiketten. Klassisk högerbanks-Bordeaux – strukturerad, korrekt och lite reserverad tills andra glaset, då tinar hon och blir underbar.",
+      "bild_path": "./bilder/viner/vin_28.webp",
+      "foto_kalla": "IMG_9231"
+    },
+    {
+      "id": 29,
+      "namn": "Maison Françoise Bordeaux Réserve 2017",
+      "typ": "Rött",
+      "ursprung": "Bordeaux, Frankrike",
+      "personlighet_se": "Den blå-vita porslinsdamen med slott på etiketten och franskt lugn i blicken. Mogen 2017:a – mjuk i kanterna, väluppfostrad och alltid vackert klädd. Hon säger 'santé' och menar det.",
+      "bild_path": "./bilder/viner/vin_29.webp",
+      "foto_kalla": "IMG_9231"
+    },
+    {
+      "id": 30,
+      "namn": "Truescany – Governo all'uso Toscano",
+      "typ": "Rött",
+      "ursprung": "Toscana, Italien",
+      "personlighet_se": "Skämtaren i gänget – namnet är en ordvits och hon vet om det. Governo-metoden ger extra saft och skratt; frisk, ledig och 100 % italiensk attityd. Kvällens punchline på flaska.",
+      "bild_path": "./bilder/viner/vin_30.webp",
+      "foto_kalla": "IMG_9231"
+    },
+    {
+      "id": 31,
+      "namn": "Contacto Loureiro 2025 – Mendes & Symington",
+      "typ": "Vitt",
+      "ursprung": "Vinho Verde, Portugal",
+      "personlighet_se": "Den atlantiskt friska portugisiskan med grön kork och blommig själ. Loureiro betyder lager – hon doftar just så, örtigt och mineralt. Ung, spänstig och alltid nybadad i havet.",
+      "bild_path": "./bilder/viner/vin_31.webp",
+      "foto_kalla": "IMG_9231"
+    },
+    {
+      "id": 32,
+      "namn": "Baron de Ley Reserva – Rioja",
+      "typ": "Rött",
+      "ursprung": "Rioja, Spanien",
+      "personlighet_se": "Den värdiga med kloster på etiketten och benediktinskt tålamod. Rioja Reserva, lagrad tills hon är sammetslen och vis – lugn, generös och doftar vanilj och gammalt bibliotek.",
+      "bild_path": "./bilder/viner/vin_32.webp",
+      "foto_kalla": "IMG_9231"
+    },
+    {
+      "id": 33,
+      "namn": "Casa Santos Lima Dão Reserva 2024",
+      "typ": "Rött",
+      "ursprung": "Dão, Portugal",
+      "personlighet_se": "Den svartklädda portugisiskan med guldkant och bergsblod. Dão-druvor från granitkullar – kryddig, spänstig och lite otillgänglig först, men djupt lojal när hon släppt in dig.",
+      "bild_path": "./bilder/viner/vin_33.webp",
+      "foto_kalla": "IMG_9231"
+    },
+    {
+      "id": 34,
+      "namn": "Champagne Gremillet Tradition Extra-Brut",
+      "typ": "Mousserande",
+      "ursprung": "Champagne, Frankrike",
+      "personlighet_se": "Festens självklara stjärna – guldfolie, extra-brut och bubblor för dagar. Torr, elegant och alltid uppåt; hon utbringar skålen, håller talet och får alla att känna sig lite finare.",
+      "bild_path": "./bilder/viner/vin_34.webp",
+      "foto_kalla": "IMG_9231"
+    },
+    {
+      "id": 35,
+      "namn": "Grand Tokaj 'Terroir Selection' Édes Szamorodni",
+      "typ": "Sött",
+      "ursprung": "Tokaj, Ungern",
+      "personlighet_se": "Kvällens sötaste avsked – gyllene, honungslen och full av visdom. Ungerskt ädelsött från Tokaj, det där vinet kungar drack. Hon kommer sist, med desserten, och ingen vill att hon ska gå.",
+      "bild_path": "./bilder/viner/vin_35.webp",
+      "foto_kalla": "IMG_9231"
+    },
+    {
+      "id": 36,
+      "namn": "Djuce White Wine (burk)",
+      "typ": "Vitt",
+      "ursprung": "Naturvin, burk",
+      "personlighet_se": "Den unga rebellen som kom i burk och konstig konst istället för klänning. Naturvitt, ledigt och helt oborstat – hon struntar i etiketten (bokstavligen) och är festens roligaste överraskning.",
+      "bild_path": "./bilder/viner/vin_36.webp",
+      "foto_kalla": "IMG_9231"
+    }
+  ]
+}

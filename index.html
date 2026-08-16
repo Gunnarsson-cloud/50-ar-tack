@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="50-årsfesten förevigad – varje vin en väninna på flaska.">
+<title>50 år – Ett sällskap av väninnor</title>
+<style>
+  /* ---- Minimal reset + tokens ---- */
+  *,*::before,*::after{box-sizing:border-box;margin:0}
+  :root{
+    --vin:#6b1330;--vin-ljus:#8f1d40;--guld:#c9a24b;--guld-ljus:#e6cf94;
+    --papper:#fbf7f0;--bleck:#2a1418;--dammig:#efe6d6;--skugga:0 6px 22px rgba(60,10,25,.10);
+    --max:960px;--radie:16px;
+    --font:'Georgia','Times New Roman',serif;
+    --sans:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  }
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--font);color:var(--bleck);background:var(--papper);
+    line-height:1.55;-webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(circle at 50% -10%,rgba(201,162,75,.12),transparent 60%);
+  }
+  /* ---- Hero ---- */
+  header{
+    text-align:center;padding:clamp(2.5rem,8vw,5rem) 1.25rem 2rem;
+    background:linear-gradient(160deg,var(--vin),var(--vin-ljus));
+    color:var(--papper);position:relative;overflow:hidden;
+  }
+  header::after{content:"";position:absolute;inset:auto 0 0 0;height:5px;
+    background:linear-gradient(90deg,transparent,var(--guld),transparent)}
+  .femtio{font-size:clamp(3.4rem,18vw,7rem);line-height:.9;font-weight:700;
+    color:var(--guld-ljus);letter-spacing:-2px;text-shadow:0 2px 0 rgba(0,0,0,.15)}
+  header h1{font-size:clamp(1.3rem,5vw,2rem);font-weight:700;margin:.6rem 0 .3rem}
+  header p{max-width:34rem;margin:.5rem auto 0;font-style:italic;opacity:.94;
+    font-size:clamp(.95rem,3.4vw,1.1rem)}
+  .rakn{margin-top:1.4rem;display:inline-block;font-family:var(--sans);font-size:.8rem;
+    letter-spacing:.15em;text-transform:uppercase;color:var(--guld-ljus);
+    border:1px solid rgba(230,207,148,.5);border-radius:100px;padding:.45rem 1.1rem}
+  /* ---- Filter ---- */
+  nav.filter{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:.4rem;
+    justify-content:center;padding:.75rem 1rem;background:rgba(251,247,240,.92);
+    backdrop-filter:blur(8px);border-bottom:1px solid var(--dammig)}
+  nav.filter button{font-family:var(--sans);font-size:.82rem;cursor:pointer;
+    border:1px solid var(--dammig);background:#fff;color:var(--vin);
+    padding:.4rem .85rem;border-radius:100px;transition:.15s}
+  nav.filter button[aria-pressed="true"]{background:var(--vin);color:#fff;border-color:var(--vin)}
+  /* ---- Grid ---- */
+  main{max-width:var(--max);margin:0 auto;padding:1.5rem 1rem 4rem}
+  .grid{display:grid;gap:1.1rem;grid-template-columns:1fr}
+  @media(min-width:560px){.grid{grid-template-columns:1fr 1fr}}
+  @media(min-width:860px){.grid{grid-template-columns:1fr 1fr 1fr}}
+  /* ---- Kort (visitkort) ---- */
+  .kort{background:#fff;border-radius:var(--radie);overflow:hidden;box-shadow:var(--skugga);
+    border:1px solid var(--dammig);display:flex;flex-direction:column;
+    opacity:0;transform:translateY(12px);animation:in .5s forwards}
+  @keyframes in{to{opacity:1;transform:none}}
+  @media(prefers-reduced-motion:reduce){.kort{animation:none;opacity:1;transform:none}}
+  .kort .bild{aspect-ratio:3/4;background:
+    linear-gradient(135deg,var(--dammig),#fff);position:relative;overflow:hidden}
+  .kort .bild img{width:100%;height:100%;object-fit:cover;display:block}
+  .kort .bild .platsh{position:absolute;inset:0;display:flex;align-items:center;
+    justify-content:center;flex-direction:column;gap:.4rem;color:var(--vin);
+    font-family:var(--sans);text-align:center;padding:1rem}
+  .kort .bild .platsh svg{width:38px;height:38px;opacity:.55}
+  .kort .bild .platsh span{font-size:.72rem;letter-spacing:.08em;opacity:.65}
+  .typ-tagg{position:absolute;top:.6rem;left:.6rem;font-family:var(--sans);font-size:.66rem;
+    letter-spacing:.1em;text-transform:uppercase;color:#fff;padding:.25rem .6rem;
+    border-radius:100px;background:var(--vin)}
+  .typ-Vitt .typ-tagg{background:#b08d2f}
+  .typ-Mousserande .typ-tagg{background:#9a7b1f}
+  .typ-Sött .typ-tagg{background:#c98a2b}
+  .kort .txt{padding:1rem 1.05rem 1.2rem;display:flex;flex-direction:column;gap:.5rem;flex:1}
+  .kort h2{font-size:1.06rem;line-height:1.25;color:var(--vin)}
+  .kort .ursprung{font-family:var(--sans);font-size:.74rem;letter-spacing:.05em;
+    text-transform:uppercase;color:#9a8a6a}
+  .kort p.pers{font-size:.94rem;color:#3a2a2e}
+  .kort .nr{margin-top:auto;font-family:var(--sans);font-size:.7rem;color:#c3b79c;
+    border-top:1px dashed var(--dammig);padding-top:.6rem}
+  footer{text-align:center;padding:2.5rem 1.25rem;color:#8a7a62;font-size:.85rem;
+    font-family:var(--sans);border-top:1px solid var(--dammig)}
+  footer strong{color:var(--vin)}
+</style>
+</head>
+<body>
+<header>
+  <div class="femtio">50</div>
+  <h1>Ett helt sällskap av väninnor</h1>
+  <p id="underrubrik"></p>
+  <div class="rakn" id="rakn">Laddar sällskapet…</div>
+</header>
+
+<nav class="filter" id="filter" aria-label="Filtrera efter vintyp"></nav>
+
+<main>
+  <div class="grid" id="grid"></div>
+</main>
+
+<footer>
+  <p><strong id="antal">36</strong> väninnor, förevigade från festen.<br>
+  Alla namn och årgångar är avlästa direkt från flaskornas etiketter — inget är påhittat.</p>
+</footer>
+
+<script>
+// Liten vanilla-JS: hämtar viner.json, bygger visitkort, filtrerar. Ingen framework.
+const glasIkon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M8 22h8M12 15v7M5 3h14l-1 5a6 6 0 0 1-12 0z"/></svg>`;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function kort(v){
+  // <picture> förberett för AVIF/WebP + lazy-loading. Faller tillbaka till elegant platshållare.
+  const bas = v.bild_path ? v.bild_path.replace(/\.(webp|avif|jpe?g|png)$/i,'') : '';
+  const bild = v.bild_path ? `
+      <picture>
+        <source srcset="${esc(bas)}.avif" type="image/avif">
+        <source srcset="${esc(bas)}.webp" type="image/webp">
+        <img src="${esc(bas)}.webp" alt="Flaska: ${esc(v.namn)}" loading="lazy" decoding="async"
+             width="600" height="800"
+             onerror="this.closest('.bild').classList.add('tom');this.remove()">
+      </picture>` : '';
+  return `<article class="kort typ-${esc(v.typ)}" data-typ="${esc(v.typ)}">
+    <div class="bild">
+      <span class="typ-tagg">${esc(v.typ)}</span>
+      ${bild}
+      <div class="platsh">${glasIkon}<span>Foto på väg</span></div>
+    </div>
+    <div class="txt">
+      <div class="ursprung">${esc(v.ursprung||'')}</div>
+      <h2>${esc(v.namn)}</h2>
+      <p class="pers">${esc(v.personlighet_se)}</p>
+      <div class="nr">Nr ${v.id} &nbsp;·&nbsp; ${esc(v.foto_kalla||'')}</div>
+    </div>
+  </article>`;
+}
+
+function bygg(viner, typ){
+  const grid = document.getElementById('grid');
+  const lista = typ==='Alla' ? viner : viner.filter(v=>v.typ===typ);
+  grid.innerHTML = lista.map(kort).join('');
+}
+
+fetch('./viner.json').then(r=>r.json()).then(data=>{
+  const viner = data.viner;
+  document.getElementById('underrubrik').textContent = data.fest.underrubrik;
+  document.getElementById('rakn').textContent = `${viner.length} viner · 50 år · en väninna åt gången`;
+  document.getElementById('antal').textContent = viner.length;
+
+  // Bygg filterknappar dynamiskt av de typer som faktiskt finns
+  const typer = ['Alla', ...[...new Set(viner.map(v=>v.typ))]];
+  const nav = document.getElementById('filter');
+  nav.innerHTML = typer.map((t,i)=>`<button aria-pressed="${i===0}" data-typ="${t}">${t}</button>`).join('');
+  nav.addEventListener('click', e=>{
+    const b = e.target.closest('button'); if(!b) return;
+    nav.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed', x===b));
+    bygg(viner, b.dataset.typ);
+  });
+
+  bygg(viner, 'Alla');
+}).catch(err=>{
+  document.getElementById('grid').innerHTML =
+    '<p style="grid-column:1/-1;text-align:center;color:#8f1d40">Kunde inte läsa viner.json — kör sidan via en webbserver (se README).</p>';
+  console.error(err);
+});
+</script>
+<style>.bild.tom .platsh span{content:""}</style>
+</body>
+</html>
