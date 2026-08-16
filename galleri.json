@@ -1,5 +1,5 @@
 {
- "antal": 279,
+ "antal": 328,
  "bilder": [
   {
    "fil": "./bilder/galleri/portratt_001.webp",
@@ -1674,6 +1674,300 @@
    "kategori": "handelse",
    "bredd": 1600,
    "hojd": 1067
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_001.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_002.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_003.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_004.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_005.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_006.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 675
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_007.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_008.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 675
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_009.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_010.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 675
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_011.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_012.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_013.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 675
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_014.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 675
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_015.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 675
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_016.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_017.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_018.jpg",
+   "kategori": "jukebox",
+   "bredd": 752,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_019.jpg",
+   "kategori": "jukebox",
+   "bredd": 678,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_020.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_021.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 405
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_022.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 405
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_023.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 405
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_024.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 405
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_025.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 405
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_026.jpg",
+   "kategori": "jukebox",
+   "bredd": 405,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_027.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 405
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_028.jpg",
+   "kategori": "jukebox",
+   "bredd": 405,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_029.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 405
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_030.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_031.jpg",
+   "kategori": "jukebox",
+   "bredd": 405,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_032.jpg",
+   "kategori": "jukebox",
+   "bredd": 405,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_033.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 675
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_034.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 405
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_035.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 675
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_036.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 623
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_037.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 494
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_038.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_039.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 675
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_040.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 675
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_041.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_042.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 507
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_043.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_044.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 675
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_045.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 675
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_046.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_047.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 675
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_048.jpg",
+   "kategori": "jukebox",
+   "bredd": 675,
+   "hojd": 900
+  },
+  {
+   "fil": "./bilder/galleri/jukebox_049.jpg",
+   "kategori": "jukebox",
+   "bredd": 900,
+   "hojd": 675
   }
  ]
 }
