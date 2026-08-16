@@ -20,7 +20,7 @@ Där online-bilden gällde en annan årgång/etikett, saknades, eller inte kunde
 | 9 | Borgogno Barolo Riserva | online | |
 | 10 | ONE Ribera del Duero | festfoto | hittades ej online |
 | 11 | Basalt 'Granville' Pinot Noir | festfoto | hittades ej online |
-| 12 | Poderi Colla 'Dardi Le Rose' Barolo Bussia | festfoto | hittades ej online |
+| 12 | Poderi Colla 'Dardi Le Rose' Barolo Bussia | online | producentens egen bild (podericolla.it) |
 | 13 | Black Knight Cabernet Sauvignon | festfoto | ingen produktbild online |
 | 14 | Enzo Bartoli Langhe Nebbiolo | online | |
 | 15 | Kung Fu Malbec – Riccitelli | online | |
@@ -35,7 +35,7 @@ Där online-bilden gällde en annan årgång/etikett, saknades, eller inte kunde
 | 24 | Fortellino Valpolicella Ripasso Superiore | online | |
 | 25 | Casa Capriolo Governo Toscana | online | |
 | 26 | Marqués de Cáceres Crianza Rioja | online | |
-| 27 | Ljungbyholms Vingård 'Skälderviken' | festfoto | lokalt svenskt vin |
+| 27 | Ljungbyholms Vingård 'Skälderviken' | online | Systembolagets produktbild |
 | 28 | Château Labadie Côtes de Bourg | festfoto | festfotot visar rätt (blå) etikett; online hade annan design |
 | 29 | Maison Françoise Bordeaux Réserve | online | |
 | 30 | Truescany – Governo all'uso Toscano | festfoto | ingen produktbild online |
@@ -43,9 +43,9 @@ Där online-bilden gällde en annan årgång/etikett, saknades, eller inte kunde
 | 32 | Baron de Ley Reserva Rioja | online | |
 | 33 | Casa Santos Lima Dão Reserva | festfoto | ingen produktbild online |
 | 34 | Champagne Gremillet Tradition Extra-Brut | online | |
-| 35 | Grand Tokaj 'Terroir Selection' Édes Szamorodni | festfoto | online var standard-Szamorodni, annan etikett |
-| 36 | Djuce White Wine (burk) | festfoto | burk, ingen produktbild online |
+| 35 | Grand Tokaj 'Terroir Selection' Édes Szamorodni | online | Systembolagets produktbild (Grand Tokaj Édes Szamorodni) |
+| 36 | Djuce White Wine (burk) | online | Djuce Core Fizzy White-burk (djuce.com); exakt variant osäker |
 
-**Sammanfattning:** 16 online-produktbilder, 20 omputsade festfoton.
+**Sammanfattning:** 20 online-produktbilder, 16 omputsade festfoton.
 
 Skripten som användes ligger i `scripts_hamta/`.
